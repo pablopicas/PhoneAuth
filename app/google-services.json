@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "671413659802",
+    "project_id": "car-wash-b5ede",
+    "storage_bucket": "car-wash-b5ede.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671413659802:android:cf7346fbc9e6956a47d723",
+        "android_client_info": {
+          "package_name": "com.decode.carwash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "671413659802-8efd2qrf9pl3ucqo31qln0ohoaifqha3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaZmFwSVWoPBiW943PAegFf86eQE-yglk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "671413659802-8efd2qrf9pl3ucqo31qln0ohoaifqha3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
