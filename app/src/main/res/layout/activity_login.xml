@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@drawable/mainbggradient"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbggradient">
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -20,12 +20,12 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="60dp"
-            android:fontFamily="@font/jaldi_bold"
             android:layout_marginLeft="20dp"
+            android:layout_marginTop="60dp"
             android:layout_marginRight="20dp"
+            android:fontFamily="@font/jaldi_bold"
             android:gravity="center"
-            android:text="Hello! Please Sign in For Proceed"
+            android:text="Welcome Back!  Please Sign in"
             android:textColor="#fff"
             android:textSize="35sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -45,40 +45,46 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView" />
 
-        <EditText
-            android:id="@+id/userNumber"
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout2"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
-            android:layout_marginTop="36dp"
+            android:layout_marginTop="20dp"
             android:layout_marginRight="30dp"
-            android:background="@drawable/editextbg"
-            android:drawableStart="@drawable/ic_baseline_local_phone_24"
-            android:drawablePadding="10dp"
-            android:drawableTint="#fff"
-            android:fontFamily="@font/jaldi_bold"
             android:hint="Enter Phone Number"
-            android:paddingLeft="18dp"
             android:textColorHint="#fff"
+            app:boxStrokeColor="#fff"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+            app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/userNumber"
+                android:drawableStart="@drawable/ic_baseline_local_phone_24"
+                android:drawablePadding="10dp"
+                android:drawableTint="#fff" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/sendOtp"
             android:layout_width="200dp"
             android:layout_height="50dp"
-            android:text="Send OTP"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/bgbtn"
             android:fontFamily="@font/jaldi_bold"
-            android:textSize="25sp"
+            android:text="Send OTP"
             android:textColor="#191B1F"
-            android:layout_marginTop="30dp"
+            android:textSize="25sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/userNumber"
-            android:background="@drawable/bgbtn"/>
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout2" />
 
         <TextView
             android:id="@+id/textView4"
@@ -124,13 +130,12 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/otpLayout"
         android:layout_width="match_parent"
-        android:visibility="gone"
+        android:layout_height="match_parent"
         android:background="@drawable/mainbggradient"
-        android:layout_height="match_parent">
+        android:visibility="gone">
 
         <TextView
             android:id="@+id/textVie"
@@ -199,15 +204,15 @@
             android:id="@+id/varifyOtp"
             android:layout_width="200dp"
             android:layout_height="50dp"
-            android:text="Send OTP"
-            android:fontFamily="@font/jaldi_bold"
-            android:background="@drawable/bgbtn"
-            android:textSize="25sp"
             android:layout_marginTop="30dp"
+            android:background="@drawable/bgbtn"
+            android:fontFamily="@font/jaldi_bold"
+            android:text="Send OTP"
+            android:textSize="25sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/userOtp"/>
+            app:layout_constraintTop_toBottomOf="@+id/userOtp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
