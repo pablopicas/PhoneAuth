@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@drawable/mainbggradient"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbggradient">
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -35,111 +35,11 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <EditText
-            android:id="@+id/userNumber"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="28dp"
-            android:layout_marginRight="30dp"
-            android:background="@drawable/editextbg"
-            android:drawableStart="@drawable/ic_baseline_local_phone_24"
-            android:drawablePadding="10dp"
-            android:drawableTint="#fff"
-            android:fontFamily="@font/jaldi_bold"
-            android:hint="Enter First Name"
-            android:paddingLeft="18dp"
-            android:textColorHint="#fff"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView" />
-
-        <EditText
-            android:id="@+id/editText4"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginRight="30dp"
-            android:background="@drawable/editextbg"
-            android:drawableStart="@drawable/ic_baseline_local_phone_24"
-            android:drawableEnd="@drawable/ic_baseline_arrow_drop_down_24"
-            android:drawableTint="#fff"
-            android:fontFamily="@font/jaldi_bold"
-            android:gravity="center"
-            android:hint="Select Gender"
-            android:paddingLeft="18dp"
-            android:paddingRight="18dp"
-            android:textColorHint="#fff"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.116"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editText3" />
-
-        <EditText
-
-            android:id="@+id/editText3"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginRight="30dp"
-            android:background="@drawable/editextbg"
-            android:drawableStart="@drawable/ic_baseline_local_phone_24"
-            android:drawablePadding="10dp"
-            android:drawableTint="#fff"
-            android:fontFamily="@font/jaldi_bold"
-            android:hint="Enter Phone Number"
-            android:paddingLeft="18dp"
-            android:textColorHint="#fff"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editText2" />
-
-        <EditText
-
-            android:id="@+id/editText2"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="12dp"
-            android:layout_marginRight="30dp"
-            android:background="@drawable/editextbg"
-            android:drawableStart="@drawable/ic_baseline_local_phone_24"
-            android:drawablePadding="10dp"
-            android:drawableTint="#fff"
-            android:fontFamily="@font/jaldi_bold"
-            android:hint="Enter Email"
-            android:paddingLeft="18dp"
-            android:textColorHint="#fff"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editText" />
-
-        <EditText
-            android:id="@+id/editText"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginRight="30dp"
-            android:background="@drawable/editextbg"
-            android:drawableStart="@drawable/ic_baseline_local_phone_24"
-            android:drawablePadding="10dp"
-            android:drawableTint="#fff"
-            android:fontFamily="@font/jaldi_bold"
-            android:hint="Enter Last Name"
-            android:paddingLeft="18dp"
-            android:textColorHint="#fff"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/userNumber" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/sendOtp"
             android:layout_width="200dp"
             android:layout_height="50dp"
-            android:layout_marginTop="36dp"
             android:background="@drawable/bgbtn"
             android:fontFamily="@font/jaldi_bold"
             android:text="Send OTP"
@@ -148,7 +48,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editText4" />
+            tools:layout_editor_absoluteY="505dp" />
 
         <TextView
             android:id="@+id/textView4"
@@ -190,6 +90,123 @@
                 android:text="Sign Up"
                 android:textColor="#00D1FF"
                 android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            app:layout_constraintTop_toBottomOf="@+id/textView">
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                padd
+                android:layout_marginRight="30dp"
+                android:hint="Enter First Name"
+                android:textColorHint="#fff"
+                app:boxStrokeColor="#fff">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:drawableStart="@drawable/ic_baseline_person_24"
+                    android:drawablePadding="10dp"
+                    android:layout_height="wrap_content" />
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:hint="Enter Last Name"
+                android:textColorHint="#fff"
+                app:boxStrokeColor="#fff">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:drawableStart="@drawable/ic_baseline_person_24"
+                    android:drawablePadding="10dp"
+                    android:layout_height="wrap_content" />
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:hint="Enter Email"
+                android:textColorHint="#fff"
+                app:boxStrokeColor="#fff">
+
+                <com.google.android.material.textfield.TextInputEditText
+
+                    android:layout_width="match_parent"
+                    android:drawableStart="@drawable/ic_baseline_email_24"
+                    android:drawablePadding="10dp"
+                    android:layout_height="wrap_content" />
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:hint="Enter Phone Number"
+                android:textColorHint="#fff"
+                app:boxStrokeColor="#fff">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:drawableStart="@drawable/ic_baseline_local_phone_24"
+                    android:drawableTint="#fff"
+                    android:drawablePadding="10dp"
+                    android:layout_height="wrap_content" />
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:hint="Select Gender"
+                android:textColorHint="#fff"
+                app:boxStrokeColor="#fff">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_Title"
+                    android:drawableStart="@drawable/ic_baseline_person_outline_24"
+                    android:drawablePadding="10dp"
+                    android:layout_width="match_parent"
+                    android:drawableEnd="@drawable/ic_baseline_arrow_drop_down_24"
+                    draw
+                    android:layout_height="wrap_content" />
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
 
         </LinearLayout>
 
