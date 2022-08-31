@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/mainbggradient">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="55dp"
+           android:orientation="horizontal">
+
+           <ImageView
+               android:layout_width="40dp"
+               android:layout_height="40dp"
+               android:layout_gravity="center_vertical"
+               android:layout_marginStart="10dp"
+               android:src="@drawable/ic_baseline_menu_24"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:text="Car Wash"
+               android:layout_marginRight="40dp"
+               android:gravity="center"
+               android:textSize="22sp"
+               android:fontFamily="@font/jaldi_bold"
+               android:textColor="#fff"/>
+       </LinearLayout>
+
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="140dp"
+           android:src="@drawable/carpng"/>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Offers"
+           android:gravity="center"
+           android:textSize="22sp"
+           android:fontFamily="@font/jaldi_bold"
+           android:textColor="#fff"/>
+
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="180dp"
+           android:layout_marginLeft="20dp"
+           android:layout_marginRight="20dp"
+           android:src="@color/cardview_dark_background"/>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textColor="#fff"
+           android:textSize="30sp"
+           android:text="Choose Your Service"
+           android:gravity="center"
+           android:layout_marginTop="10dp"
+           android:fontFamily="@font/jaldi_bold"/>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:orientation="horizontal">
+
+           <FrameLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_weight="1">
+
+               <androidx.cardview.widget.CardView
+                   android:layout_width="match_parent"
+                   android:layout_height="110dp"
+                   android:layout_marginLeft="40dp"
+                   android:layout_marginRight="20dp"
+                   app:cardCornerRadius="10dp">
+
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:background="#434344"
+                       android:orientation="vertical"
+                       android:gravity="center">
+
+                       <ImageView
+                           android:layout_width="60dp"
+                           android:layout_height="60dp"
+                           android:src="@drawable/carpar"/>
+
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="Car Wash"
+                           android:layout_marginLeft="10dp"
+                           android:layout_marginRight="10dp"
+                           android:textSize="18sp"
+                           android:layout_marginTop="5dp"
+                           android:fontFamily="@font/jaldi_bold"
+                           android:textColor="#fff"/>
+
+                   </LinearLayout>
+
+               </androidx.cardview.widget.CardView>
+
+           </FrameLayout>
+
+           <FrameLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_weight="1">
+
+               <androidx.cardview.widget.CardView
+                   android:layout_width="match_parent"
+                   android:layout_height="110dp"
+                   android:layout_marginLeft="20dp"
+                   android:layout_marginRight="40dp"
+                   app:cardCornerRadius="10dp">
+
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:background="#434344"
+                       android:orientation="vertical"
+                       android:gravity="center">
+
+                       <ImageView
+                           android:layout_width="60dp"
+                           android:layout_height="60dp"
+                           android:src="@drawable/cartank"/>
+
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="Car Wash"
+                           android:layout_marginLeft="10dp"
+                           android:layout_marginRight="10dp"
+                           android:textSize="18sp"
+                           android:layout_marginTop="5dp"
+                           android:fontFamily="@font/jaldi_bold"
+                           android:textColor="#fff"/>
+
+                   </LinearLayout>
+
+               </androidx.cardview.widget.CardView>
+
+           </FrameLayout>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="center"
+           android:layout_marginTop="20dp"
+           android:orientation="horizontal">
+
+           <FrameLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_weight="1">
+
+               <androidx.cardview.widget.CardView
+                   android:layout_width="match_parent"
+                   android:layout_height="110dp"
+                   android:layout_marginLeft="40dp"
+                   android:layout_marginRight="20dp"
+                   app:cardCornerRadius="10dp">
+
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:background="#434344"
+                       android:orientation="vertical"
+                       android:gravity="center">
+
+                       <ImageView
+                           android:layout_width="60dp"
+                           android:layout_height="60dp"
+                           android:src="@drawable/handlericon"/>
+
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="Car Wash"
+                           android:layout_marginLeft="10dp"
+                           android:layout_marginRight="10dp"
+                           android:textSize="18sp"
+                           android:layout_marginTop="5dp"
+                           android:fontFamily="@font/jaldi_bold"
+                           android:textColor="#fff"/>
+
+                   </LinearLayout>
+
+               </androidx.cardview.widget.CardView>
+
+           </FrameLayout>
+
+           <FrameLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_weight="1">
+
+               <androidx.cardview.widget.CardView
+                   android:layout_width="match_parent"
+                   android:layout_height="110dp"
+                   android:layout_marginLeft="20dp"
+                   android:layout_marginRight="40dp"
+                   app:cardCornerRadius="10dp">
+
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:background="#434344"
+                       android:orientation="vertical"
+                       android:gravity="center">
+
+                       <ImageView
+                           android:layout_width="60dp"
+                           android:layout_height="60dp"
+                           android:src="@drawable/mechanical"/>
+
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="Car Wash"
+                           android:layout_marginLeft="10dp"
+                           android:layout_marginRight="10dp"
+                           android:textSize="18sp"
+                           android:layout_marginTop="5dp"
+                           android:fontFamily="@font/jaldi_bold"
+                           android:textColor="#fff"/>
+
+                   </LinearLayout>
+
+               </androidx.cardview.widget.CardView>
+
+           </FrameLayout>
+
+       </LinearLayout>
+
+   </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
