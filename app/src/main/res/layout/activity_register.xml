@@ -105,7 +105,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                padd
                 android:layout_marginRight="30dp"
                 android:hint="Enter First Name"
                 android:textColorHint="#fff"
@@ -201,7 +200,6 @@
                     android:drawablePadding="10dp"
                     android:layout_width="match_parent"
                     android:drawableEnd="@drawable/ic_baseline_arrow_drop_down_24"
-                    draw
                     android:layout_height="wrap_content" />
 
 
