@@ -115,6 +115,7 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="#fff"
                     android:drawableStart="@drawable/ic_baseline_person_24"
                     android:drawablePadding="10dp" />
 
@@ -136,6 +137,7 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="#fff"
                     android:drawableStart="@drawable/ic_baseline_person_24"
                     android:drawablePadding="10dp" />
 
@@ -158,6 +160,7 @@
 
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="#fff"
                     android:drawableStart="@drawable/ic_baseline_email_24"
                     android:drawablePadding="10dp" />
 
@@ -178,6 +181,7 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textColor="#fff"
                     android:drawableStart="@drawable/ic_baseline_local_phone_24"
                     android:drawablePadding="10dp"
                     android:drawableTint="#fff" />
