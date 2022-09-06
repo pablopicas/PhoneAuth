@@ -10,6 +10,8 @@
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/Carwash/app/src/main/res/drawable/editextbg.xml" value="0.1895" />
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/Carwash/app/src/main/res/drawable/halwa.xml" value="0.1895" />
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/Carwash/app/src/main/res/drawable/mainbggradient.xml" value="0.1895" />
+        <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/Carwash/app/src/main/res/drawable/pereferdtimingbg.xml" value="0.218" />
+        <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/Carwash/app/src/main/res/drawable/pereferdtimingbg2.xml" value="0.218" />
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/Carwash/app/src/main/res/drawable/proceedbtn.xml" value="0.2135" />
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/Carwash/app/src/main/res/drawable/stroke.xml" value="0.2135" />
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/Carwash/app/src/main/res/drawable/subbg.xml" value="0.2135" />
@@ -27,9 +29,12 @@
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/Carwash/app/src/main/res/layout/loading_layout.xml" value="0.38697916666666665" />
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/Carwash/app/src/main/res/layout/login.xml" value="0.22" />
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/Carwash/app/src/main/res/layout/otppage.xml" value="0.2" />
+        <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/Carwash/app/src/main/res/layout/peffered_time.xml" value="0.289453125" />
+        <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/Carwash/app/src/main/res/layout/preferedtiming.xml" value="0.289453125" />
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/Carwash/app/src/main/res/layout/rcvsubcription.xml" value="0.289453125" />
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/Carwash/app/src/main/res/layout/spinner_list.xml" value="0.18125" />
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/Carwash/app/src/main/res/layout/splashscreen.xml" value="0.23125" />
+        <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/Carwash/app/src/main/res/layout/wash_time_layout.xml" value="0.290234375" />
       </map>
     </option>
   </component>
