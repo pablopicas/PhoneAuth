@@ -21,10 +21,12 @@
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/Carwash/app/src/main/res/layout/activity_main.xml" value="0.21" />
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/Carwash/app/src/main/res/layout/activity_package.xml" value="0.25" />
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/Carwash/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/Carwash/app/src/main/res/layout/add_vehicle.xml" value="0.25" />
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/Carwash/app/src/main/res/layout/bike_layout.xml" value="0.22" />
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/Carwash/app/src/main/res/layout/car_type.xml" value="0.22" />
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/Carwash/app/src/main/res/layout/dashboard.xml" value="0.25" />
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/Carwash/app/src/main/res/layout/dropdown_item.xml" value="0.289453125" />
+        <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/Carwash/app/src/main/res/layout/edit_profile.xml" value="0.25" />
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/Carwash/app/src/main/res/layout/feedback.xml" value="0.25" />
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/Carwash/app/src/main/res/layout/final_subcription_2.xml" value="0.22" />
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/Carwash/app/src/main/res/layout/final_wallet.xml" value="0.25" />
@@ -41,6 +43,7 @@
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/Carwash/app/src/main/res/layout/rcvsubcription.xml" value="0.289453125" />
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/Carwash/app/src/main/res/layout/spinner_list.xml" value="0.18125" />
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/Carwash/app/src/main/res/layout/splashscreen.xml" value="0.23125" />
+        <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/Carwash/app/src/main/res/layout/wallet_2.xml" value="0.16" />
         <entry key="..\:/Users/Farid Ahmad/AndroidStudioProjects/Carwash/app/src/main/res/layout/wash_time_layout.xml" value="0.290234375" />
       </map>
     </option>
