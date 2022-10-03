@@ -19,6 +19,11 @@
             <item name="boxStrokeColor">#fff</item>
             <item name="boxStrokeWidth">2dp</item>
         </style>
-
     </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlActivated">#FFEB3B</item>
+    </style>
+
 </resources>
